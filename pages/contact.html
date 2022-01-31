@@ -8,8 +8,35 @@
     <h1>contact me</h1>
     <br />
     <p>If you have any questions feel free to contact me anytime!</p>
-    <input type="text" name="username" />
-    <input type="email" name="email" />
+    <form action="contact.html" method="post">
+
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>
+                Name:
+                <input type="text" value="name"
+            </label>
+            <label>
+                Email:
+                <input type="email" value="email"
+            </label>
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="reason">Reason for contacting us</label>
+            <select name="referrer" id="reason">
+                <option value="information">Information</option>
+                <option value="collaboration">Collaboration</option>
+            </select>
+        </fieldset>
+        <br />
+        
+        <fieldset>
+
+        </fieldset>
+    </form>
 </header>
     </body>
 </html>
